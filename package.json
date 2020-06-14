@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "http://localhost:3000/test/test1.git"
-  },
   "scripts": {
     "semantic-release": "semantic-release"
   },
