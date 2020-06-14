@@ -5,8 +5,7 @@
     ["@saithodev/semantic-release-gitea", {
       "giteaUrl": "https://git.saitho.me",
       "assets": [
-        {"path": "**"},
-        {"path": "!**/*.txt"}
+        {"path": ["**", "!node_modules/**", "!**/*.txt"]}
       ]
     }]
   ]
