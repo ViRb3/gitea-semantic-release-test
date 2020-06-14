@@ -9,6 +9,7 @@ trigger:
 steps:
   - name: release
     image: saitho/docker-semantic-release
+    privileged: true
     environment:
       GITEA_TOKEN:
         from_secret: gitea_token
