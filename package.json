@@ -1,0 +1,21 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:3000/test/test1.git"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.0",
+    "@saithodev/semantic-release-gitea": "^1.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.0",
+    "@semantic-release/release-notes-generator": "^9.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

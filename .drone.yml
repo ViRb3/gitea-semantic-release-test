@@ -1,0 +1,17 @@
+---
+kind: pipeline
+name: release
+type: docker
+trigger:
+  branch:
+    - master
+
+steps:
+  - name: release
+    image: saitho/docker-semantic-release
+    environment:
+      GITEA_TOKEN:
+        from_secret: gitea_token
+    commands:
+      - npm install
+      - npx semantic-release

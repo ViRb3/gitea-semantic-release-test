@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@saithodev/semantic-release-gitea", {
+      "giteaUrl": "http://localhost:3000",
+      "assets": [
+        {"path": "README.md", "label": "README"}
+      ]
+    }]
+  ]
+}
