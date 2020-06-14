@@ -8,7 +8,7 @@ trigger:
 
 steps:
   - name: release
-    image: saitho/docker-semantic-release
+    image: node:14
     environment:
       GITHUB_TOKEN:
         from_secret: GITHUB_TOKEN
