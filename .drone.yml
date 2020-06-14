@@ -10,8 +10,8 @@ steps:
   - name: release
     image: saitho/docker-semantic-release
     environment:
-      GITEA_TOKEN:
-        from_secret: gitea_token
+      GITHUB_TOKEN:
+        from_secret: GITHUB_TOKEN
     commands:
       - npm install
       - npx semantic-release

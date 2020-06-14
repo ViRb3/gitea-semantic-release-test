@@ -2,10 +2,9 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    ["@saithodev/semantic-release-gitea", {
-      "giteaUrl": "https://git.saitho.me",
+    ["@semantic-release/github", {
       "assets": [
-        {"path": "*"}
+        {"path": "test.txt"}
       ]
     }]
   ]
